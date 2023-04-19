@@ -10,7 +10,7 @@ class Svg{
         this.shapeElement = '';
     }
     render(){
-        return `<scg version= "1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${this.shapeElement}${this.textElement}</svg>`;
+        return `<svg version= "1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${this.shapeElement}${this.textElement}</svg>`;
     }
     setTextElement(text, color) {
         this.textElement = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`
@@ -79,21 +79,18 @@ async function init() {
     console.log(`User text: [${userText}]`);
 
     //User input: Font color
-    user_font_color = answers["text-color"];
-    console.log("User font color: [" + user_font_color + "]");
-
-    //User Input: Shape Color
     const userFontColor = answers["text-color"];
     console.log(`User font color: [${userFontColor}]`);
 
-    //User Input: Shape type
-    const userShapeColor = answers["shape-color"];
+    //User Input: Shape Color
+    const userShapeColor = answers["shape"];
     console.log(`User shape color: [${userShapeColor}]`);
-    //User shape inputs- this is to make sure the user selects the designated shape listed and is given a result/display of what has been chosen
-   
+
+    //User Input: Shape type
     const userShapeType = answers["shape-type"].toLowerCase();
     console.log(`User entered shape type = [${userShapeType}]`);
-
+    //User shape inputs- this is to make sure the user selects the designated shape listed and is given a result/display of what has been chosen
+   
     let userShape;
      if (userShapeType === "square") {
         userShape = new Square();
