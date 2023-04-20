@@ -52,9 +52,19 @@ WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
 
+## Demo screenshots:
+# Command Line Application
+![Alt text](Images/Command%20Line%20results.png)
+
+# Jest Case Testing
+![Alt text](Images/Test.png)
+
+# Generated Logo
+![Alt text](Images/Example%20logo.png)
 
 ## Walkthrough Video Link
 
-
+https://drive.google.com/file/d/1P5-Q6v6H0vE_O9f5wfpTmYYyLXmGjeqL/view
 
 ## Link to GitHub Repository
+https://github.com/Saria995/Object-Oriented-Programming-Logo-Maker.git 
