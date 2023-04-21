@@ -14,16 +14,16 @@ This application allows users to generate a logo "logo.svg" file by entering inp
 ## Installation Process
 1. Clone the Repository
 2. Open integrated terminal on index.js
-* Make sure you have the following installed: 
-- NodeJS
-- Jest
-- Inquirer.js
+Note: Make sure you have the following installed: 
+    - NodeJS
+    - Jest
+    - Inquirer.js
 3. Enter "node index.js" in the terminal
 4. You will be presented with 3 prompts, input your answers in the terminal
 5. Once prompts have been completed successfully, then a message will say the logo has been generated successfully
 6. A SVG file named logo.svg will be created
-- You may rename the SVG File
-- To view the Logo, copy the code into a text editor and save as .svg or drag and drop in your browser URL 
+    - You may rename the SVG File
+    - To view the Logo, copy the code into a text editor and save as .svg or drag and drop in your browser URL 
 
 ## User Story
 
