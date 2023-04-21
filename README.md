@@ -52,14 +52,14 @@ WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
 
-## Demo screenshots:
-# Command Line Application
+# Demo screenshots:
+## Command Line Application
 ![Alt text](Images/Command%20Line%20results.png)
 
-# Jest Case Testing
+## Jest Case Testing
 ![Alt text](Images/Test.png)
 
-# Generated Logo
+## Generated Logo
 ![Alt text](Images/Example%20logo.png)
 
 ## Walkthrough Video Link
